@@ -43,13 +43,6 @@
     text-transform: uppercase;
 
 }
-.container1{
-    display: flex;
-    width:80%;
-    margin: auto;
-    flex-wrap: wrap;
-}
-
 .portfolio {
 
     text-align: center;
@@ -61,7 +54,8 @@
     text-align: center;
 }
 .portfolio p{
-    width:100%;
+    width:100%; 
+    text-align: center;
 }
 
 
