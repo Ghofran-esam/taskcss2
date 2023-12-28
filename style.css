@@ -43,6 +43,13 @@
     text-transform: uppercase;
 
 }
+.container1{
+    display: flex;
+    width:80%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
 .portfolio {
 
     text-align: center;
@@ -56,16 +63,18 @@
 .portfolio p{
     width:100%;
 }
-.portimg{
-    background-color: green;
-    display: flex; 
-    flex-wrap: wrap;
+
+
+.portfolio-item
+{   background-color: green;
+    width:33.3%;
+    padding-right: 30px;
+   
+}
+.portfolio-item img{
+    display:block;
+    width:100%;
+
 
 }
-.portimg img{
-  
-    width: 31.9158%;
-    display: block;
-margin-right: 10px;
-
-}
+ 
