@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: black;
+}
+.container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+  
+    flex-wrap: wrap;
+}
+.logo{
+    margin-top: 5px;
+}
+.logo img{
+    width:50%;
+
+}
+.contact{
+  
+    margin-top: 5px;
+    
+}
+.contact ul {
+ 
+    display: flex;
+    list-style-type: none;
+    margin-left:542.6px;
+}
+
+.contact a{
+    text-decoration: none;
+    color: white;
+}
+.contact li{
+
+    margin-right: 10px;
+    text-transform: uppercase;
+
+}
+.portfolio {
+
+    text-align: center;
+    background-color: cornsilk;
+   
+}
+.portfolio h2{
+    width: 100%;
+    text-align: center;
+}
+.portfolio p{
+    width:100%;
+}
+.portimg{
+    background-color: green;
+    display: flex; 
+    flex-wrap: wrap;
+
+}
+.portimg img{
+  
+    width: 31.9158%;
+    display: block;
+margin-right: 10px;
+
+}
